@@ -2,7 +2,6 @@
 #ifndef TELEMETRY_LL_H_
 #define TELEMETRY_LL_H_
 
-#include "stm32f1xx.h"
 #include <stdint.h>
 
 /**
