@@ -6,10 +6,6 @@
  * @brief  Initializes MPU6050 and wakes it up from sleep mode.
  * @param  I2Cx: I2C instance (e.g. I2C1)
  * @retval 0 if success, 1 if error
- *
- * NOTE:
- * This function currently does not explicitly return a value.
- * The behavior is kept unchanged intentionally.
  */
 uint8_t MPU6050_Init(I2C_TypeDef *I2Cx)
 {
