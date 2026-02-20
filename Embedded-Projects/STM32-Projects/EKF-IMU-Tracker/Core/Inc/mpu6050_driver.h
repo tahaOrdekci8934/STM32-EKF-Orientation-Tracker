@@ -1,8 +1,6 @@
 #ifndef MPU6050_DRIVER_H
 #define MPU6050_DRIVER_H
 
-#include "stm32f1xx.h"
-
 /**
  * @brief Initialize MPU6050 to wake up from sleep mode.
  * @param I2Cx I2C peripheral (e.g., I2C1)
