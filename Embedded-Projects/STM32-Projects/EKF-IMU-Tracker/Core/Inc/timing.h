@@ -1,8 +1,7 @@
 
-#ifndef TIMING_LL_H_
-#define TIMING_LL_H_
+#ifndef TIMING_H
+#define TIMING_H
 
-#include "stm32f1xx.h"
 #include <stdint.h>
 
 // Global flag to trigger EKF cycle in main loop
@@ -20,4 +19,4 @@ void Timing_Init(void);
  */
 uint32_t Get_Micros(void);
 
-#endif /* TIMING_LL_H_ */
+#endif /* TIMING_H */
