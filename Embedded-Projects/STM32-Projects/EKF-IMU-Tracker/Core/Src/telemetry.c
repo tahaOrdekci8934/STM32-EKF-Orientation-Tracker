@@ -2,7 +2,6 @@
  * @brief Initializes DMA1 Channel 7 for USART2 TX (Register-Level).
  */
 
-#include "stm32f1xx.h"   /* Register definitions for DMA1, USART2 */
 #include <stdint.h>      /* uint32_t, uint16_t */
 #include <telemetry.h>
 
