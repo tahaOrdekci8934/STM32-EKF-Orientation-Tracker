@@ -1,5 +1,4 @@
 #include <mpu6050_driver.h>
-#include "stm32f1xx.h"
 #include <stdint.h>
 #define I2C_TIMEOUT_MAX 0x2000
 
