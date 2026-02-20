@@ -5,7 +5,7 @@
 #include <stdint.h>      /* uint32_t, uint16_t */
 #include <telemetry.h>
 
-#define I2C_TIMEOUT_COUNT  100000
+#define UART_TIMEOUT  100000
 
 /**
  * @brief Configure DMA1 Channel 7 for USART2 transmission.
@@ -45,7 +45,7 @@ void Telemetry_DMA_Init(void)
  */
 void Telemetry_Send_Burst(void *packet_ptr, uint16_t size)
 {
-    uint32_t timeout = I2C_TIMEOUT_COUNT;
+    uint32_t timeout = UART_TIMEOUT;
 
     /* Wait until previous DMA transfer is complete (TCIF7 flag) */
     while (!(DMA1->ISR & (1 << 25)) && --timeout);
