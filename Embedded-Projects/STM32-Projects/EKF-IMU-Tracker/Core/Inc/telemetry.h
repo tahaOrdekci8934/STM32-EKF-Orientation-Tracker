@@ -1,6 +1,6 @@
 
-#ifndef TELEMETRY_LL_H_
-#define TELEMETRY_LL_H_
+#ifndef TELEMETRY_H
+#define TELEMETRY_H
 
 #include <stdint.h>
 
