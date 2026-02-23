@@ -138,6 +138,7 @@ The sensor communicates via I2C at address 0x68.
 ### System Block Diagram
 
 ![System Architecture](./system_diagram.svg)
+The system architecture is designed for a deterministic 50ms loop. I chose a 32-byte packet structure to keep telemetry overhead minimal while ensuring all 7 float values (quaternion + accel) and the sync word are transmitted in a single DMA burst.
 
 ### Core Modules
 
