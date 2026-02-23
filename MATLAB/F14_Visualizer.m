@@ -11,9 +11,6 @@ function F14_Visualizer(portName, baudRate)
 %   Data Packet Format:
 %       [4x4 Bytes Float Quaternions] + [3x4 Bytes Spares/Other] + [4 Bytes Magic Tail]
 %       Total Packet Size: 32 Bytes
-%
-%   Author: [Your Name]
-%   License: MIT
 
 %% --- 1. DEFAULT PARAMETERS ---
 if nargin < 2
