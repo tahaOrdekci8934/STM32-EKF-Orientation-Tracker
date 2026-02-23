@@ -637,7 +637,7 @@ stm32-ekf-orientation/
 
 ### Real-Time Orientation Tracking
 
-**Demo Video**: [https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+**Demo Video**: [https://www.youtube.com/watch?v=-KcWHh-qa_g](https://www.youtube.com/watch?v=-KcWHh-qa_g)
 
 *The video shows real-time quaternion estimation with the STM32 tracking hand movements and displaying orientation in MATLAB. The aircraft model rotates synchronously with the physical MPU6050 sensor.*
 
